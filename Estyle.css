@@ -1,0 +1,28 @@
+body{
+    background-image: url('image/epage.png');
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    background-size: cover;
+    
+
+}
+.clkb{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    transition: 0.5s;
+    height: 45px;
+    width:200px;
+    color: rgb(7, 7, 7);
+    outline:none;
+    background: hsl(269, 88%, 49%);
+    font-size:  18px;
+    background-size: 200%;
+    border-radius: 20px;   
+}
